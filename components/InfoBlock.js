@@ -42,7 +42,7 @@ function InfoBlock() {
             </div>
             <div>
               <p>Mobile</p>
-              <p>82(0)10 8909 1663</p>
+              <p>82(0)10 8908 1663</p>
             </div>
           </div>
           <div className='info_detail_mobile'>

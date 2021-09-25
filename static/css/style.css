@@ -94,7 +94,6 @@
 	left: 0;
 	height: calc(100% + 1px) !important;
 	width: calc(100% + 1px) !important;
-	opacity: 0;
 	transition: .5s ease;
 	background-color: rgba(0,0,0,0.8);
 	display: block !important;
@@ -122,9 +121,9 @@
 
 
 
-.container:hover .show {
+/* .container:hover .show {
 	opacity: 1;
-}
+} */
 
 .container > img {
 	width: 100%;
@@ -300,7 +299,7 @@
 	position: absolute;
 	left: 15px;
 	top: 15px;
-	height: 50px;
+	height: 40px;
 }
 
 
@@ -478,7 +477,7 @@
 		position: absolute;
 		left: 15px;
 		top: 15px;
-		height: 46px;
+		height: 40px;
 	}
 
 	.info_block span
@@ -782,7 +781,7 @@
 		position: absolute;
 		left: 15px;
 		top: 15px;
-		height: 46px;
+		height: 40px;
 	}
 
 	.info_block span {
@@ -876,7 +875,7 @@
 	  position: absolute;
 	  left: 15px;
 	  top: 15px;
-	  height: 52px;
+	  height: 40px;
   }
 
   .info_block span {
@@ -1151,7 +1150,7 @@
 		position: absolute;
 		left: 15px;
 		top: 15px;
-		height: 32px;
+		height: 28px;
 	}
 
 	.info_block span {
