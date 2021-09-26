@@ -28,6 +28,7 @@
 	overflow-x: hidden;
 	display: flex;
 	flex-flow: wrap;
+	background: #fff;
 }
 
 .info_detail_mobile {
@@ -92,8 +93,8 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	height: calc(100% + 1px) !important;
-	width: calc(100% + 1px) !important;
+	height: calc(100%) !important;
+	width: calc(100%) !important;
 	transition: .5s ease;
 	background-color: rgba(0,0,0,0.8);
 	display: block !important;
@@ -106,7 +107,7 @@
 	top: 20px;
 	left: 20px;
 	width: calc(100% - 40px);
-	font-size: 25px;
+	font-size: 19px;
 	letter-spacing: 0.5px;
 }
 
@@ -462,6 +463,8 @@
 }
 
 @media screen and (min-width: 1460px) {
+
+
 	.color_block {
 		width: calc((50vw / 12) * 4);
 		height: calc((50vw / 12) * 4);
@@ -600,14 +603,16 @@
 
 	.thirdrow {
 		order: 2;
-		width: 50vw;
-		max-width: 50vw;
+		width: calc(50vw + 1px);
+		max-width: calc(50vw + 1px);
+		margin-left: -1px;
 	}
 
 	.forthrow {
 		order: 4;
-		width: 50vw;
-		max-width: 50vw;
+		width: calc(50vw + 1px);
+		max-width: calc(50vw + 1px);
+		margin-left: -1px;
 	}
 
 	.firstrow {
