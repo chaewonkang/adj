@@ -20,6 +20,10 @@
 	font-family: 'Helvetica Neue Stmd', sans-serif;
 }
 
+.info_block > span {
+	cursor: pointer;
+}
+
 #body {
 	width: 100%;
 	height: auto;
