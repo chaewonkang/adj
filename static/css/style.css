@@ -35,6 +35,10 @@
 	background: #fff;
 }
 
+.pc_off {
+	display: none !important;
+}
+
 .info_detail_mobile {
 	display: none;
 }
@@ -1094,6 +1098,10 @@
 		margin-top: -1px;
 	}
 
+	.pc_off .color_block {
+		display: block !important;
+	}
+
 	.color_block {
 		width: 100vw;
 		height: 100vw;
@@ -1105,6 +1113,9 @@
 		position: relative;
 	}
 
+	#xlarge_ison_colorblock {
+		display: block;
+	}
 
 	.info_block span {
 		position: absolute;
@@ -1231,7 +1242,7 @@
 	}
 
 	.firstrow > div:nth-child(4) {
-		display: none;
+
 	}
 
 	.forthrow div:nth-child(4) {
