@@ -69,6 +69,7 @@
 	object-fit: cover;
 }
 
+
 @-webkit-keyframes gradient {
     0%{background-position:0% 58%}
     50%{background-position:100% 43%}

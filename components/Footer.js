@@ -36,7 +36,7 @@ function Footer() {
         <div>
           <p>Director</p>
           <p>jaeunjeon@adj.kr</p>
-          <p>010 8909 1663</p>
+          <p>010 8908 1663</p>
         </div>
       </div>
     </div>

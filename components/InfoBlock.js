@@ -54,7 +54,7 @@ function InfoBlock() {
             <div>
               <p>Director</p>
               <p>jaeunjeon@adj.kr</p>
-              <p>82(0)10 8909 1663</p>
+              <p>82(0)10 8908 1663</p>
             </div>
           </div>
         </div>
